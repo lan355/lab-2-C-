@@ -1,4 +1,5 @@
-﻿using System;
+//вариант 12
+using System;
 
 
 namespace Complex_numbers
