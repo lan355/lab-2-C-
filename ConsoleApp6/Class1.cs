@@ -48,15 +48,5 @@ namespace Complex_numbers
         }
 
 
-
-
-
-        public void Print()
-        {
-            double a = Math.Sqrt((this.module) * (this.module) + (this.argument) * (this.argument));
-            double b = Math.Atan(this.argument / this.module) + Math.PI;
-            Console.WriteLine(String.Format("a={0}+{1}i", this.Module, this.Argument));
-            Console.WriteLine(String.Format("a={0}(cos{1}+sin{1})", a, b));
-        }
     }
 }
